@@ -1,0 +1,61 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+#saraImg {
+  height: 70%;
+}
+
+span {
+  background: linear-gradient(to right, rgb(34, 221, 231), rgb(237, 4, 125));
+  background-clip: text;
+  color: transparent;
+  font-size: 2vmax;
+}
+
+button {
+  width: 180px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(34, 224, 234);
+  box-shadow: 2px 2px 50px rgb(34, 224, 234);
+  cursor: pointer;
+}
+
+.respDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#speakImg {
+  width: 100px;
+}
+
+p {
+  font-size: 1.3vmax;
+  color: white;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+#aiImg {
+  width: 50vh;
+  height: 100px;
+}
